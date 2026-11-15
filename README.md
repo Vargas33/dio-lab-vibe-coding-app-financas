@@ -585,26 +585,26 @@ A arquitetura deve ser escalável e preparada para futuras integrações com Ope
 ```
 
 
- Interações com Lovable:
+ ### Interações com Lovable:
  
 > Crie App de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
 
 > O Finanças Pessoais está pronto. Testei o caminho principal no celular: fiz o onboarding, mandei "Gastei R$ 50 no mercado" no chat e o assistente registrou em Alimentação. Depois respondi "Quanto gastei este mês?" com o valor certo, e o painel mostrou o gasto.
 > Favor alterar o logo e cor para um roxo vivo e moderno (claro, vou substituir o logo e a cor para um roxo.
 
-Resultado final no Lovable:  https://papo-de-gastos-diarios.lovable.app
+## Resultado final no Lovable:  https://papo-de-gastos-diarios.lovable.app
 
 <img width="1559" height="762" alt="image" src="https://github.com/user-attachments/assets/e9222d0a-ac50-4187-a49c-020b1534510b" />
 
 
 ```markdown
-✨ Funcionalidades do App de Organização Financeira
+### Funcionalidades do App de Organização Financeira
 
-📊 Dashboard Financeiro
+## Dashboard Financeiro
 
 Permite visualizar de forma rápida a situação financeira do usuário.
 
-Recursos disponíveis:
+## Recursos disponíveis:
 
 Saldo atual
 Receitas do mês
@@ -615,22 +615,24 @@ Metas financeiras
 Gastos por categoria
 Receitas x despesas
 Últimas movimentações
-💸 Gestão de Receitas e Despesas
+
+## Gestão de Receitas e Despesas
 
 Centraliza o controle de movimentações financeiras.
 
-Recursos disponíveis:
+## Recursos disponíveis:
 
 Cadastro de receitas
 Cadastro de despesas
 Histórico de transações
 Organização por categorias
 Consulta de movimentações
-💳 Controle de Cartões de Crédito
+
+##Controle de Cartões de Crédito
 
 Gerencie todos os seus cartões em um único local.
 
-Recursos disponíveis:
+## Recursos disponíveis:
 
 Cadastro de cartões
 Controle de limite
@@ -638,73 +640,80 @@ Limite disponível
 Limite utilizado
 Fechamento da fatura
 Vencimento da fatura
-🧾 Gestão de Faturas
+
+## Gestão de Faturas
 
 Acompanhe suas faturas e despesas do cartão.
 
-Recursos disponíveis:
+## Recursos disponíveis:
 
 Faturas abertas
 Histórico de faturas
 Compras vinculadas
 Controle de vencimentos
 Status da fatura
-📦 Controle de Parcelas
+
+## Controle de Parcelas
 
 Monitore todas as compras parceladas.
 
-Recursos disponíveis:
+## Recursos disponíveis:
 
 Parcelas ativas
 Parcelas restantes
 Valor restante
 Próximos vencimentos
-🏦 Gestão de Dívidas
+
+## Gestão de Dívidas
 
 Controle empréstimos, financiamentos e outras obrigações financeiras.
 
-Recursos disponíveis:
+## Recursos disponíveis:
 
 Cadastro de dívidas
 Saldo devedor
 Percentual quitado
 Histórico de pagamentos
-🎯 Metas Financeiras
+
+## Metas Financeiras
 
 Defina objetivos e acompanhe seu progresso.
 
-Recursos disponíveis:
+## Recursos disponíveis:
 
 Criação de metas
 Percentual concluído
 Valor acumulado
 Valor restante para atingir a meta
-📈 Insights Financeiros
+
+##Insights Financeiros
 
 Receba informações sobre seus hábitos financeiros.
 
-Recursos disponíveis:
+## Recursos disponíveis:
 
 Alertas financeiros
 Recomendações de economia
 Indicadores de desempenho
 Análise de padrões de consumo
-🔐 Segurança
+
+## Segurança
 
 Proteção completa das informações financeiras.
 
-Recursos disponíveis:
+## Recursos disponíveis:
 
 Cadastro e login
 Recuperação de senha
 Verificação de e-mail
 Proteção de rotas
 Isolamento de dados por usuário
-🤖 Agente Financeiro Inteligente (Em Desenvolvimento)
+
+## Agente Financeiro Inteligente (Em Desenvolvimento)
 
 Assistente baseado em inteligência artificial para facilitar o controle financeiro.
 
-Funcionalidades planejadas:
+## Funcionalidades planejadas:
 
 Registro por conversa
 Linguagem natural
