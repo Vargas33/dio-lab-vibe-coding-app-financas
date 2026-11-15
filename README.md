@@ -586,7 +586,7 @@ A arquitetura deve ser escalável e preparada para futuras integrações com Ope
 
  Interações com Lovable:
  
-> Criação de um App de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
+> Crie App de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
 >  
 - Prints ou pequenos vídeos das interações com a IA;  
 - Um resumo do que o seu **App de Finanças Pessoais** faz;  
