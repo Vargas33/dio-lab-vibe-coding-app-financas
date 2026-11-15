@@ -584,6 +584,7 @@ A arquitetura deve ser escalável e preparada para futuras integrações com Ope
 
 ```
 
+
  Interações com Lovable:
  
 > Crie App de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
@@ -593,16 +594,133 @@ A arquitetura deve ser escalável e preparada para futuras integrações com Ope
 
 Resultado final no Lovable:  https://papo-de-gastos-diarios.lovable.app
 
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+<img width="1559" height="762" alt="image" src="https://github.com/user-attachments/assets/e9222d0a-ac50-4187-a49c-020b1534510b" />
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
 
-## 💬 Conclusão
+```markdown
+✨ Funcionalidades do App de Organização Financeira
 
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+📊 Dashboard Financeiro
+
+Permite visualizar de forma rápida a situação financeira do usuário.
+
+Recursos disponíveis:
+
+Saldo atual
+Receitas do mês
+Despesas do mês
+Dívidas totais
+Faturas abertas
+Metas financeiras
+Gastos por categoria
+Receitas x despesas
+Últimas movimentações
+💸 Gestão de Receitas e Despesas
+
+Centraliza o controle de movimentações financeiras.
+
+Recursos disponíveis:
+
+Cadastro de receitas
+Cadastro de despesas
+Histórico de transações
+Organização por categorias
+Consulta de movimentações
+💳 Controle de Cartões de Crédito
+
+Gerencie todos os seus cartões em um único local.
+
+Recursos disponíveis:
+
+Cadastro de cartões
+Controle de limite
+Limite disponível
+Limite utilizado
+Fechamento da fatura
+Vencimento da fatura
+🧾 Gestão de Faturas
+
+Acompanhe suas faturas e despesas do cartão.
+
+Recursos disponíveis:
+
+Faturas abertas
+Histórico de faturas
+Compras vinculadas
+Controle de vencimentos
+Status da fatura
+📦 Controle de Parcelas
+
+Monitore todas as compras parceladas.
+
+Recursos disponíveis:
+
+Parcelas ativas
+Parcelas restantes
+Valor restante
+Próximos vencimentos
+🏦 Gestão de Dívidas
+
+Controle empréstimos, financiamentos e outras obrigações financeiras.
+
+Recursos disponíveis:
+
+Cadastro de dívidas
+Saldo devedor
+Percentual quitado
+Histórico de pagamentos
+🎯 Metas Financeiras
+
+Defina objetivos e acompanhe seu progresso.
+
+Recursos disponíveis:
+
+Criação de metas
+Percentual concluído
+Valor acumulado
+Valor restante para atingir a meta
+📈 Insights Financeiros
+
+Receba informações sobre seus hábitos financeiros.
+
+Recursos disponíveis:
+
+Alertas financeiros
+Recomendações de economia
+Indicadores de desempenho
+Análise de padrões de consumo
+🔐 Segurança
+
+Proteção completa das informações financeiras.
+
+Recursos disponíveis:
+
+Cadastro e login
+Recuperação de senha
+Verificação de e-mail
+Proteção de rotas
+Isolamento de dados por usuário
+🤖 Agente Financeiro Inteligente (Em Desenvolvimento)
+
+Assistente baseado em inteligência artificial para facilitar o controle financeiro.
+
+Funcionalidades planejadas:
+
+Registro por conversa
+Linguagem natural
+Classificação automática
+Consultas financeiras inteligentes
+Recomendações personalizadas
+Sugestões automáticas de economia
+```
+
+## Reflexão
+
+## O que funcionou bem? 
+O refinamento do PRD previamente feito pelo Copilot ajudou muito, pois gastei somente 20 Credits no Lovable, claro com algumas solicitações extras na hora que me impolguei para deixar mais completo e clin o APP.
+
+## O que não funcionou como o esperado? 
+Os créditos gratuitos acabam muito rápido, então se não tiver uma assinatura no lovable acredito mesmo refinando o PRD não vai conseguir finalizar o App.
+
+## O que aprendeu sobre conversar com IAs?
+Aprendi que tenho que que dar interagir com a IA enviando o máximo de detalhes possíveis para ela entender e saber o que estou querendo criar e fazer para ficar claro e refinado.
