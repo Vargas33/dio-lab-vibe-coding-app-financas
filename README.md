@@ -583,7 +583,11 @@ Implementar:
 A arquitetura deve ser escalável e preparada para futuras integrações com Open Finance e sincronização bancária.
 
 ```
+
+ Interações com Lovable:
  
+> Criação de um App de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
+>  
 - Prints ou pequenos vídeos das interações com a IA;  
 - Um resumo do que o seu **App de Finanças Pessoais** faz;  
 - Uma breve **reflexão sobre o processo**:
