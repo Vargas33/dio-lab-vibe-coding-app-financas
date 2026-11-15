@@ -1,79 +1,589 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 App de Organização de Finanças Pessoais com Vibe Coding para ampliar estudos de Marcelo Barreto
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+PRD refinado no Copilot Web
 
-## ✨ O que é Vibe Coding
+```markdown
+## Visão Geral
 
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
+### Nome do Produto
+Finanças Pessoais
 
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
+### Proposta de Valor
 
-## 🎯 Desafio
+Finanças Pessoais é um aplicativo de gestão financeira pessoal baseado em inteligência artificial conversacional.
 
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
+O objetivo é permitir que qualquer pessoa organize sua vida financeira de forma simples e intuitiva, sem depender de planilhas, formulários complexos ou conhecimentos avançados de finanças.
 
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
+O usuário interage com um assistente financeiro através de linguagem natural para registrar movimentações, acompanhar metas, controlar cartões, monitorar dívidas e receber recomendações personalizadas.
 
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
+---
 
-## 🪄 Etapas do Desafio
+## Problema
 
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
+Muitas pessoas abandonam o controle financeiro porque os aplicativos atuais:
 
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
+- Exigem muito preenchimento manual
+- Possuem interfaces complexas
+- São difíceis para iniciantes
+- Não oferecem orientação personalizada
+- Exigem conhecimento financeiro básico
 
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
+Como consequência, usuários perdem controle dos gastos, acumulam dívidas e não conseguem atingir metas financeiras.
 
-```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+---
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+## Solução
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+Criar uma experiência conversacional onde o usuário apenas descreve o que aconteceu e o sistema interpreta automaticamente.
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+Exemplos:
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
+- Gastei R$ 50 no mercado
+- Recebi R$ 4.500 de salário
+- Comprei um celular de R$ 2.000 em 10 parcelas
+- Tenho uma dívida de R$ 5.000
+- Quanto gastei este mês?
+
+O sistema deve compreender a intenção, registrar as informações e atualizar automaticamente os relatórios financeiros.
+
+---
+
+## Público-Alvo
+
+### Perfil Principal
+
+Pessoas que:
+
+- Estão começando a organizar suas finanças
+- Nunca utilizaram planilhas financeiras
+- Possuem pouco conhecimento financeiro
+- Buscam praticidade
+- Querem economizar dinheiro
+- Possuem cartões de crédito, parcelas e dívidas
+- Utilizam aplicativos de mensagens diariamente
+
+### Faixa Etária
+
+18 a 55 anos
+
+### Nível de Conhecimento Financeiro
+
+Iniciante a intermediário
+
+---
+
+## Objetivos do Produto
+
+### Objetivos do Usuário
+
+- Controlar gastos sem esforço
+- Entender para onde o dinheiro está indo
+- Acompanhar cartões e faturas
+- Organizar dívidas e parcelamentos
+- Criar metas financeiras
+- Receber sugestões para economizar
+
+### Objetivos do Negócio
+
+- Aumentar frequência de uso através do chat
+- Reduzir a complexidade da gestão financeira
+- Melhorar a retenção de usuários iniciantes
+- Criar uma experiência altamente personalizada
+
+---
+
+# Funcionalidades do MVP
+
+## 1. Chat Financeiro Inteligente
+
+Funcionalidade principal do aplicativo.
+
+Exemplos:
+
+- Gastei R$ 75 no mercado
+- Recebi R$ 1.000 de um freelance
+- Quanto gastei em alimentação este mês?
+- Tenho uma dívida de R$ 2.000
+- Minha fatura está alta?
+
+Responsabilidades da IA:
+
+- Entender a intenção da mensagem
+- Extrair valores monetários
+- Identificar categorias
+- Detectar datas
+- Registrar movimentações
+- Responder consultas financeiras
+
+---
+
+## 2. Registro de Receitas
+
+Exemplos:
+
+- Recebi meu salário de R$ 4.500
+- Entrou R$ 300 via PIX
+- Recebi R$ 800 de um trabalho extra
+
+Dados:
+
+- Valor
+- Descrição
+- Data
+- Categoria
+
+---
+
+## 3. Registro de Despesas
+
+Exemplos:
+
+- Gastei R$ 50 no restaurante
+- Uber R$ 25
+- Mercado R$ 300
+
+Dados:
+
+- Valor
+- Categoria
+- Descrição
+- Data
+
+---
+
+## 4. Classificação Automática
+
+Categorias:
+
+- Alimentação
+- Transporte
+- Moradia
+- Saúde
+- Educação
+- Lazer
+- Compras
+- Assinaturas
+- Investimentos
+- Cartão de Crédito
+- Dívidas
+- Outros
+
+Regra:
+Quando houver dúvida, solicitar confirmação ao usuário.
+
+---
+
+## 5. Metas Financeiras
+
+Permitir:
+
+- Criar metas
+- Editar metas
+- Excluir metas
+- Acompanhar evolução
+
+Dados:
+
+- Nome
+- Valor objetivo
+- Valor atual
+- Prazo
+
+Visualização:
+
+- Percentual concluído
+- Valor acumulado
+- Valor restante
+
+---
+
+## 6. Agente Financeiro
+
+Assistente virtual responsável por:
+
+- Analisar hábitos financeiros
+- Detectar gastos excessivos
+- Identificar padrões
+- Gerar recomendações
+- Alertar vencimentos
+
+Exemplos:
+
+- Você gastou 20% mais em alimentação este mês
+- Seu cartão está utilizando 80% do limite
+- Existem parcelas vencendo nos próximos dias
+- É possível economizar R$ 100 reduzindo gastos com delivery
+
+---
+
+## 7. Relatórios Inteligentes
+
+Consultas:
+
+- Quanto gastei este mês?
+- Onde gasto mais?
+- Quanto recebi?
+- Quanto ainda devo?
+- Quanto falta para minha meta?
+
+Exibir:
+
+- Texto
+- Cards
+- Gráficos simples
+
+---
+
+## 8. Cartões de Crédito
+
+Permitir cadastro de múltiplos cartões.
+
+Dados:
+
+- Nome do cartão
+- Banco
+- Bandeira
+- Limite total
+- Limite disponível
+- Dia de fechamento
+- Dia de vencimento
+
+Visualizações:
+
+- Limite utilizado
+- Limite restante
+- Percentual utilizado
+
+---
+
+## 9. Faturas
+
+Controlar automaticamente as faturas dos cartões.
+
+Status:
+
+- Aberta
+- Fechada
+- Paga
+- Atrasada
+
+Visualizações:
+
+- Valor total
+- Vencimento
+- Histórico
+- Compras da fatura
+
+Consultas:
+
+- Quanto está minha fatura?
+- Quando vence?
+- O que compõe minha fatura?
+
+---
+
+## 10. Parcelas
+
+Registrar compras parceladas.
+
+Exemplos:
+
+- Celular de R$ 2.000 em 10x
+- Notebook de R$ 5.000 em 12x
+
+Visualizações:
+
+- Parcela atual
+- Parcelas restantes
+- Valor restante
+- Próximos vencimentos
+
+---
+
+## 11. Dívidas
+
+Controlar:
+
+- Empréstimos
+- Financiamentos
+- Dívidas pessoais
+- Dívidas de cartão
+
+Visualizações:
+
+- Valor total
+- Valor pago
+- Valor restante
+- Percentual quitado
+
+---
+
+# Autenticação e Segurança
+
+## Funcionalidades
+
+- Cadastro por e-mail e senha
+- Login por e-mail e senha
+- Recuperação de senha
+- Verificação obrigatória de e-mail
+- Logout seguro
+
+## Login Social
+
+- Google
+- Microsoft
+- Apple
+
+## Segurança
+
+- HTTPS
+- JWT
+- Sessões persistentes
+- Proteção de rotas
+- Row Level Security (RLS)
+
+Regra:
+
+Cada usuário pode acessar apenas os próprios dados.
+
+---
+
+# Fluxo de Onboarding
+
+## Etapa 1
+
+Nome do usuário
+
+## Etapa 2
+
+Objetivo financeiro principal
+
+Opções:
+
+- Economizar dinheiro
+- Sair das dívidas
+- Fazer uma viagem
+- Comprar um imóvel
+- Criar reserva de emergência
+- Investir
+
+## Etapa 3
+
+Faixa de renda mensal (opcional)
+
+## Etapa 4
+
+Criar primeira meta financeira
+
+---
+
+# Telas do Sistema
+
+1. Splash Screen
+2. Boas-vindas
+3. Login
+4. Cadastro
+5. Recuperação de Senha
+6. Onboarding
+7. Dashboard
+8. Chat Financeiro
+9. Cartões
+10. Faturas
+11. Parcelas
+12. Dívidas
+13. Metas
+14. Insights
+15. Perfil
+16. Configurações
+
+---
+
+# Dashboard
+
+Resumo financeiro contendo:
+
+- Saldo atual
+- Receitas do mês
+- Despesas do mês
+- Dívidas totais
+- Faturas abertas
+- Metas financeiras
+
+Gráficos:
+
+- Gastos por categoria
+- Evolução mensal
+- Receitas x despesas
+- Comprometimento financeiro
+
+---
+
+# Banco de Dados
+
+## profiles
+
+- id
+- nome
+- email
+- objetivo_financeiro
+- faixa_renda
+- onboarding_concluido
+- created_at
+
+## transactions
+
+- id
+- user_id
+- tipo
+- valor
+- categoria
+- descricao
+- data
+
+## cards
+
+- id
+- user_id
+- nome
+- banco
+- bandeira
+- limite_total
+- limite_disponivel
+- dia_fechamento
+- dia_vencimento
+
+## invoices
+
+- id
+- card_id
+- valor_total
+- data_fechamento
+- data_vencimento
+- status
+
+## installments
+
+- id
+- user_id
+- descricao
+- valor_total
+- valor_parcela
+- total_parcelas
+- parcela_atual
+- status
+
+## debts
+
+- id
+- user_id
+- origem
+- valor_total
+- valor_pago
+- valor_restante
+- status
+
+## goals
+
+- id
+- user_id
+- nome
+- valor_meta
+- valor_atual
+- prazo
+- status
+
+## insights
+
+- id
+- user_id
+- titulo
+- descricao
+- tipo
+- created_at
+
+---
+
+# Stack Tecnológica
+
+Frontend:
+
+- React
+- TypeScript
+- Tailwind CSS
+- Shadcn UI
+
+Backend:
+
+- Supabase
+
+Banco de Dados:
+
+- PostgreSQL (Supabase)
+
+Autenticação:
+
+- Supabase Auth
+
+IA:
+
+- OpenAI API
+
+---
+
+# Diretrizes de Design
+
+- Mobile First
+- Interface moderna e minimalista
+- Fácil para iniciantes
+- Inspirada em aplicativos financeiros modernos
+- Navegação simples
+- Componentes acessíveis
+- Uso de cards para informações financeiras
+- Experiência semelhante a aplicativos de mensagens
+
+---
+
+# Critérios de Sucesso do MVP
+
+- 70% dos usuários registram uma movimentação na primeira sessão
+- 40% retornam após 7 dias
+- 85% das transações são categorizadas corretamente
+- 50% dos usuários criam ao menos uma meta financeira
+- Usuário consegue registrar uma movimentação em menos de 10 segundos
+
+---
+
+# Requisitos para o Lovable
+
+Gerar uma aplicação completa utilizando:
+
+- React
+- TypeScript
+- Supabase
+- Tailwind CSS
+- Shadcn UI
+
+Implementar:
+
+- Banco de dados
+- Autenticação
+- Navegação
+- Componentes
+- Chat Financeiro
+- Dashboard
+- Metas
+- Cartões
+- Faturas
+- Parcelas
+- Dívidas
+- Insights
+- Integração com OpenAI
+- Segurança com RLS
+
+A arquitetura deve ser escalável e preparada para futuras integrações com Open Finance e sincronização bancária.
+
 ```
-
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
-
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
-
-### 2. Explorando o Lovable na Prática
-
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
-
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
-
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
-
-### 3. Entregando o Desafio na DIO
-
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
-
-- Seu **prompt final** (PRD);  
+ 
 - Prints ou pequenos vídeos das interações com a IA;  
 - Um resumo do que o seu **App de Finanças Pessoais** faz;  
 - Uma breve **reflexão sobre o processo**:
