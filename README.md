@@ -587,7 +587,12 @@ A arquitetura deve ser escalável e preparada para futuras integrações com Ope
  Interações com Lovable:
  
 > Crie App de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
->  
+
+> O Finanças Pessoais está pronto. Testei o caminho principal no celular: fiz o onboarding, mandei "Gastei R$ 50 no mercado" no chat e o assistente registrou em Alimentação. Depois respondi "Quanto gastei este mês?" com o valor certo, e o painel mostrou o gasto.
+> Favor alterar o logo e cor para um roxo vivo e moderno (claro, vou substituir o logo e a cor para um roxo.
+
+Resultado final no Lovable:  https://papo-de-gastos-diarios.lovable.app
+
 - Prints ou pequenos vídeos das interações com a IA;  
 - Um resumo do que o seu **App de Finanças Pessoais** faz;  
 - Uma breve **reflexão sobre o processo**:
